@@ -7,7 +7,7 @@ def main():
   img = cv2.imread(name) ## as rgb
   h,w  =img.shape[:2]
 
-  r = 3
+  r = 5
   img_blur = cv2.boxFilter(img, -1, (r,r))
 
   # for rgb
